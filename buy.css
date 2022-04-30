@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 5px 20px 0px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.header{
+    display: flex;
+}
+.fm img{
+    height: 3em;
+    width: 6em;
+}
+.menu{
+    margin-left: 30em;
+    
+}
+.menu li:hover{
+    cursor: pointer;
+
+}
+.menu li{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    display: inline-block;
+}
+.menu li a{
+    display: inline-block;
+    
+    color: black;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: rgb(6, 144, 144);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.main{
+    display: flex;
+    width: 60%;
+    height: 32rem;
+    margin-top: 2em;
+}
+.h11{
+    font-size: xxx-large;
+    color: rgb(6, 161, 161);
+
+}
+.p1{
+    margin-top: 1em;
+    font-size: xx-large;
+}
+.farmer img{
+    position: absolute;
+    height: 30rem;
+    width: 30rem;
+}
+
+.comp{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+    color: rgb(6, 161, 161);
+}
+.compare,.com1{
+    display:flex;	
+	align-items: center;
+	justify-content: space-around;
+}
+
+.block{
+    height: 20rem;
+	width: 20rem; 
+	border: 2px solid grey;
+	border-radius: 2rem;
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(12, 228, 44, 0.2)), url("");
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 0.5rem;
+}
+.block:hover{
+    box-shadow: 5px 2px 5px 5px;
+}
+.block img{
+    margin-top: 1em;
+    height: 2em;
+    width: 2em;
+}
+.block p{
+    font-size: larger;
+}
+.btn1{
+	margin: 1.7rem;
+	height:2.5rem;
+	width: 5em;
+	border: 2px solid white;
+	border-radius: 1.2rem;
+	background-image: url("pic.jpg");
+	color: white;
+	font-size: 1.5em;
+    line-height: 1;
+	cursor: pointer;
+	font-weight: 10px;
+}
+
+.footer{
+    display: flex;
+    margin: 1em 0em 2em 0em;
+    justify-content: center;
+    font-size: xxx-large;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+    color: rgb(6, 161, 161);
+
+}
